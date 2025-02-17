@@ -11,8 +11,8 @@ spacing: [1.5,1.5,1.5]      # change the spacing to new values
 min_intensity: -200         # min HU for intensity preprocessing
 max_intensity: 400          # max HU for intensity preprocessing
 
-images_dir: "/home/navid/Downloads/Task07_Pancreas/Task07_Pancreas/imagesTr"  # Images directory
-data_root_dir: "/home/navid/Downloads/Task07_Pancreas/Task07_Pancreas"        # Root directory contains images and labels directories 
+images_dir: "/home/Downloads/Task07_Pancreas/Task07_Pancreas/imagesTr"  # Images directory
+data_root_dir: "/home/Downloads/Task07_Pancreas/Task07_Pancreas"        # Root directory contains images and labels directories 
 
 checkpoint_dir_cl: "./ModelCheckpoints/CL_models_pancreas"    # contrastive learning models checkpoints save dir
 checkpoint_dir_seg: "./ModelCheckpoints/Seg_models_pancreas"  # segmentation models checkpoints save dir
