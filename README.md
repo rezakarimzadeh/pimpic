@@ -59,7 +59,8 @@ python3 train.py --method=seg --seg_method=pimpic
 ```
 
 ## **5. Test the segmentation algorithm**
-Although after training of each model the dice valuefor the test set, will be calculated and stored in the results directory, you can modify the test, using `test.py` for further assessments.
+Although after training each model, the Dice value for the test set will be calculated and stored in the `results` directory, you can modify the test process using `test.py` for further assessments.
+
 ### **Input Arguments for Segmentation Testing**
 | Argument      | Description |
 |--------------|------------|
