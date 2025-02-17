@@ -1,0 +1,6 @@
+monai
+pytorch-lightning
+torch
+tensorboard
+nibabel
+pyyaml
